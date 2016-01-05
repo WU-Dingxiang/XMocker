@@ -1,0 +1,19 @@
+2016-1-3 12:00:28
+bug:按钮事件绑定无效
+sln:按钮事件必须是按钮父控件的成员方法
+
+2016-1-3 19:19:49
+bug:断言 ==> (解决后未能复现 ......)
+sln:未绑定父控件
+
+2016-1-3 20:26:53
+bug:断言 ==> atlimage.h 1573
+sln:see at 'UIView.h' line 22
+
+2016-1-4 14:15:21
+bug:CStatic DrawItem方法未调用 OnEraseBkgnd调用后被覆盖
+sln:使用OnPaint事件 CStatic根本收不到WM_DRAWITEM消息
+
+2016-1-5 17:26:36
+bug:Demo.exe 中的 0x003a386a 处有未经处理的异常: 0xC000041D: 用户回调期间遇到未经处理的异常。
+sln:成员变量数组越界

@@ -1,0 +1,32 @@
+
+***************************************** 2016年1月1日 14:59:06
+
+CMS
+x、 BUG：图标淹没
+
+CMS(Delay)
+x、 配色、表格
+
+Demo
+x、 白底椭圆按钮 UIButton [2016-1-3 16:25:15]
+
+Demo(Delay)
+x、 透明按钮 UIButton
+x、 CTreeCtrl 透明：
+    1- OnPaint | OnNMCCUSTOMDRAW
+    2- 自己实现 CTreeCtrl
+x、 CPictureEx 透明
+
+***************************************** 2016年1月4日 18:44:04
+
+Demo
+x、 设备管理界面
+x、 设备管理界面
+
+Demo(Delay)
+x、 全局设置
+	x、 UITextField 改造 UILabel+CEdit组合+编辑状态时的边框效果
+	x、 开配置文件存储路径
+x、 设备管理界面
+	x、 CListCtrl 自绘
+

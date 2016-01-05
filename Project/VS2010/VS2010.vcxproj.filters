@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{4d4029d1-b5e6-485c-8d92-8eae503faed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{978f63ab-7377-46ef-819d-815ad4d3977f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\App">
+      <UniqueIdentifier>{7bb8f649-6220-4516-ae21-0c920c363df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom">
+      <UniqueIdentifier>{3f1fe873-035c-4272-a4c9-1a6400d3ffbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View">
+      <UniqueIdentifier>{63d38d98-d4c6-43d2-84db-42c20ea32308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\PictureEx">
+      <UniqueIdentifier>{3470862f-de62-46d6-88f9-894477f608f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\UITreeView">
+      <UniqueIdentifier>{8ece77c7-db9a-4b59-b01c-1acac68d0c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\UIView">
+      <UniqueIdentifier>{462566b8-e63d-4b0c-b09a-a145ab012a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\UIButton">
+      <UniqueIdentifier>{d5089dc2-5b55-4816-8602-c6275e0452bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{0f0d68e0-0622-4f30-87a0-0958867d2fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings">
+      <UniqueIdentifier>{0eaf8df1-9d32-40fb-93c0-b07936d0b9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\RealtimePlay">
+      <UniqueIdentifier>{6c648e29-e48a-4ccc-8cfe-504b876bb391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings\GlobalSettings">
+      <UniqueIdentifier>{e2ec2974-0316-4821-8f1d-9a3b5a84ddee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\UITextField">
+      <UniqueIdentifier>{62dadccb-18c1-4d11-8029-e62e07ad7cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\_custom\UILabel">
+      <UniqueIdentifier>{9e50b929-80ab-4e49-a6f0-f76dfdcabebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings\DeviceManagement">
+      <UniqueIdentifier>{df56d532-0074-4e53-9955-288d9d13f052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings\NetworkSettings">
+      <UniqueIdentifier>{a8e80b5d-05dc-49ab-a46b-ae622ec2432e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings\RecordStrategy">
+      <UniqueIdentifier>{ca5ae455-acf2-4707-83d2-696e52d4dbab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\View\SystemSettings\RemoteMaintenance">
+      <UniqueIdentifier>{cc09282f-d7f0-4805-87a1-66e09366010a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Resource\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\App\AppDelegate.h">
+      <Filter>Code\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\PictureEx.h">
+      <Filter>Code\_custom\PictureEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\UITreeView.h">
+      <Filter>Code\_custom\UITreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\UIView.h">
+      <Filter>Code\_custom\UIView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\UIButton.h">
+      <Filter>Code\_custom\UIButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\LaurnchView.h">
+      <Filter>Code\View</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\SystemSettingsView.h">
+      <Filter>Code\View\SystemSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\RealtimePlayView.h">
+      <Filter>Code\View\RealtimePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\GlobalSettingsView.h">
+      <Filter>Code\View\SystemSettings\GlobalSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\UITextField.h">
+      <Filter>Code\_custom\UITextField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\_custom\UILabel.h">
+      <Filter>Code\_custom\UILabel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\DeviceManagementView.h">
+      <Filter>Code\View\SystemSettings\DeviceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\NetworkSettingsView.h">
+      <Filter>Code\View\SystemSettings\NetworkSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\RecordStrategyView.h">
+      <Filter>Code\View\SystemSettings\RecordStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\View\RemoteMaintenanceView.h">
+      <Filter>Code\View\SystemSettings\RemoteMaintenance</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Resource\Demo.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\App\AppDelegate.cpp">
+      <Filter>Code\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\PictureEx.cpp">
+      <Filter>Code\_custom\PictureEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\UITreeView.cpp">
+      <Filter>Code\_custom\UITreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\UIView.cpp">
+      <Filter>Code\_custom\UIView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\UIButton.cpp">
+      <Filter>Code\_custom\UIButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\LaurnchView.cpp">
+      <Filter>Code\View</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\SystemSettingsView.cpp">
+      <Filter>Code\View\SystemSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\RealtimePlayView.cpp">
+      <Filter>Code\View\RealtimePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\GlobalSettingsView.cpp">
+      <Filter>Code\View\SystemSettings\GlobalSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\UITextField.cpp">
+      <Filter>Code\_custom\UITextField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\_custom\UILabel.cpp">
+      <Filter>Code\_custom\UILabel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\DeviceManagementView.cpp">
+      <Filter>Code\View\SystemSettings\DeviceManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\NetworkSettingsView.cpp">
+      <Filter>Code\View\SystemSettings\NetworkSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\RecordStrategyView.cpp">
+      <Filter>Code\View\SystemSettings\RecordStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\View\RemoteMaintenanceView.cpp">
+      <Filter>Code\View\SystemSettings\RemoteMaintenance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Documents\bug&amp;sln.txt">
+      <Filter>Documents</Filter>
+    </None>
+    <None Include="..\..\Documents\schedule.txt">
+      <Filter>Documents</Filter>
+    </None>
+  </ItemGroup>
+</Project>
