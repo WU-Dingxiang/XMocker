@@ -1,3 +1,3 @@
 # WdxMFCApp
 
-This is a UI demo based on MFC.
+This is a Xcode-style UI demo based on MFC.
